@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  background: #F5F5F1; }
+
+li {
+  display: inline;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+.container {
+  margin: 0px;
+  font-family: Arial, sans-serif; }
+  .container header {
+    margin: 0px;
+    width: auto;
+    min-width: 1052px;
+    height: 5.5em;
+    list-style: none;
+    border-bottom: 1.5px solid #CFCBC8;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    display: block; }
+    .container header div {
+      margin: auto;
+      padding: 0em 2em;
+      height: 5.5em;
+      position: relative; }
+      .container header div .logo {
+        max-width: 80px;
+        margin-right: 1em;
+        padding: 1em 0;
+        box-sizing: border-box;
+        float: left; }
+        .container header div .logo a {
+          font-family: 'Alike', serif;
+          font-size: 2.5em;
+          color: #EF6330; }
+      .container header div .search {
+        width: 365px;
+        padding: 1.45em 0.25em;
+        box-sizing: border-box;
+        float: left; }
+        .container header div .search .bar {
+          display: inline;
+          margin: 0;
+          border: 1.5px solid #AAAAAA;
+          border-radius: 3px 0px 0px 3px;
+          border-right: 0px;
+          padding: 0.5em;
+          width: 16em;
+          background: #FBFBFA; }
+        .container header div .search #search {
+          margin: -5px;
+          border: 1.5px solid #3C98B1;
+          border-radius: 0px 3px 3px 0px;
+          padding: 0.5em 1em;
+          background: #0192B5;
+          font-weight: 700;
+          color: white; }
+      .container header div .account {
+        display: inline-block;
+        margin: 0em;
+        padding-top: 1em;
+        height: 5.5em;
+        box-sizing: border-box;
+        float: right; }
+        .container header div .account li a {
+          margin: 0.3em;
+          font-size: 0.9em;
+          color: #3791B2; }
+        .container header div .account a:hover {
+          text-decoration: underline; }
+        .container header div .account .sign-in {
+          border: 1px solid #3C98B1;
+          border-radius: 3px;
+          padding: 8px;
+          background: #FFFFFF;
+          color: #3791B2; }
+        .container header div .account #cart {
+          display: inline;
+          padding: 0px; }
+          .container header div .account #cart button {
+            margin-left: 0.7em;
+            border: none;
+            border-left: 1.5px solid #CFCBC8;
+            padding-left: 10px;
+            background: transparent;
+            box-sizing: border-box; }
+            .container header div .account #cart button img {
+              width: 1.9em; }
+            .container header div .account #cart button a {
+              display: block;
+              color: #666666;
+              text-align: center;
+              font-size: 0.85em; }
+    .container header nav {
+      margin: 0em;
+      margin-bottom: 2em;
+      border-bottom: 1.5px solid #CFCBC8;
+      background: #FFFFFF;
+      display: block; }
+      .container header nav div {
+        list-style: none;
+        padding: 0em 2em;
+        max-width: 1052px;
+        height: auto;
+        white-space: nowrap;
+        position: relative; }
+        .container header nav div ul {
+          margin: 0px;
+          padding: 12px; }
+          .container header nav div ul li a {
+            color: #666666;
+            margin-right: 14px;
+            font-size: 15px;
+            text-align: left; }
+  .container .main {
+    margin: 4em auto;
+    width: 980px;
+    display: block; }
+    .container .main .filter {
+      width: 25%;
+      display: inline-block;
+      white-space: nowrap;
+      box-sizing: border-box;
+      float: left; }
+      .container .main .filter a:hover {
+        text-decoration: underline; }
+      .container .main .filter h5 {
+        margin: 0em;
+        padding-bottom: 1em;
+        color: #555555; }
+      .container .main .filter .outter {
+        margin: 0em 0em 2em 0em;
+        border: 1.5px solid #CFCBC8;
+        border-radius: 3px;
+        padding: 12px;
+        background: #FFFFFF; }
+      .container .main .filter .inner {
+        font-size: 0.85em; }
+        .container .main .filter .inner h4 {
+          margin: 0;
+          padding-bottom: 0.5em;
+          color: #555555; }
+        .container .main .filter .inner ul {
+          margin: 0em;
+          padding: 0em;
+          line-height: 1.75em; }
+          .container .main .filter .inner ul li {
+            margin-bottom: 1em;
+            padding: 0em 0em 0.5em 0.5em; }
+            .container .main .filter .inner ul li a {
+              color: #3791B2; }
+        .container .main .filter .inner form {
+          margin-bottom: 1em;
+          border-bottom: 1.5px solid #CFCBC8;
+          padding-bottom: 1.25em; }
+        .container .main .filter .inner label {
+          display: block;
+          margin-bottom: 0.5em; }
+          .container .main .filter .inner label a {
+            color: #3791B2; }
+        .container .main .filter .inner span {
+          margin: 0em 0.25em; }
+        .container .main .filter .inner .price {
+          display: inline-block;
+          border: 1.5px solid #CFCBC8;
+          border-radius: 3px;
+          box-sizing: border-box; }
+          .container .main .filter .inner .price input {
+            border: 0em;
+            padding: 0.75em 1em 0.75em 0em;
+            width: 2em; }
+        .container .main .filter .inner button {
+          margin-left: 0.25em;
+          border: 1.5px solid #CFCBC8;
+          border-radius: 3px;
+          padding: 0.75em 1.2em;
+          background: #FFFFFF; }
+        .container .main .filter .inner button:hover {
+          background: #B1B1B1; }
+        .container .main .filter .inner .colors .swatch {
+          margin-right: 0.5em;
+          border: 1.5px solid #CFCBC8;
+          border-radius: 3px; }
+          .container .main .filter .inner .colors .swatch span {
+            padding: 0.5em;
+            height: 0.5em;
+            width: 0.5em; }
+        .container .main .filter .inner a {
+          color: #3791B2; }
+        .container .main .filter .inner select {
+          padding: 5px; }
+          .container .main .filter .inner select option {
+            padding: 1em; }
+    .container .main .results {
+      margin-left: 1em;
+      width: 70%;
+      float: left;
+      display: inline-block;
+      box-sizing: border-box; }
+      .container .main .results .heading {
+        margin: 10px;
+        width: 100%;
+        font-size: 0.8em;
+        color: #6F6F6F;
+        display: inline-block; }
+        .container .main .results .heading p {
+          margin: 0em; }
+        .container .main .results .heading a {
+          color: #3791B2; }
+        .container .main .results .heading h4 {
+          color: #555555;
+          display: inline; }
+        .container .main .results .heading .showing-left {
+          float: left; }
+        .container .main .results .heading .showing-right {
+          float: right; }
+    .container .main .graphics {
+      display: inline; }
+      .container .main .graphics .result-box {
+        float: left;
+        border: 1.5px solid #CFCBC8;
+        border-radius: 3px;
+        width: 245px;
+        height: 245px;
+        margin: 10px;
+        text-overflow: hidden;
+        display: inline-block; }
+        .container .main .graphics .result-box img {
+          width: 100%; }
+        .container .main .graphics .result-box .result-caption {
+          border: 0em;
+          background-color: #FFFFFF; }
+          .container .main .graphics .result-box .result-caption p {
+            margin: 0px;
+            font-size: 1em; }
+          .container .main .graphics .result-box .result-caption .title {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin-left: 6px;
+            display: block; }
+            .container .main .graphics .result-box .result-caption .title a {
+              margin: 0;
+              color: #555555; }
+            .container .main .graphics .result-box .result-caption .title a:hover {
+              text-decoration: none; }
+          .container .main .graphics .result-box .result-caption .authour {
+            display: inline-block;
+            font-size: 12px;
+            margin: 6px;
+            float: left; }
+            .container .main .graphics .result-box .result-caption .authour p {
+              color: #AAAAAA; }
+          .container .main .graphics .result-box .result-caption .price {
+            float: right;
+            display: inline-block;
+            color: #8AB746; }
+          .container .main .graphics .result-box .result-caption .currency {
+            float: right;
+            display: inline-block;
+            color: #8AB746; }

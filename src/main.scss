@@ -1,0 +1,384 @@
+//Measurements
+$headerHeight: 5.5em;
+//Colors
+$segmentBackground: #FFFFFF;
+$logoColor: #EF6330;
+$mainBlue: #0192B5;
+//Styling
+$border: 1.5px solid #CFCBC8;
+
+body {
+  margin: 0;
+  background: #F5F5F1;
+}
+&li {
+  display: inline;
+  list-style: none;
+}
+&a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+
+  //////////////////////
+
+  header {
+    margin: 0px;
+    width: auto;
+    min-width: 1052px;
+    height: $headerHeight;
+    list-style: none;
+    border-bottom: $border;
+    background: $segmentBackground;
+    box-sizing: border-box;
+    display: block;
+    
+    div {
+      margin: auto;
+      padding: 0em 2em;
+      height: $headerHeight;
+      position: relative;
+
+      .logo {
+        max-width: 80px;
+        margin-right: 1em; 
+        padding: 1em 0;
+        box-sizing: border-box;
+        float: left;
+        a {
+          font-family: 'Alike', serif;
+          font-size: 2.5em;
+          color: $logoColor;
+        }
+      }
+    //////////////////////
+      .search {
+        width: 365px;
+        padding: 1.45em 0.25em;
+        box-sizing: border-box;
+        float: left;
+
+        .bar {
+          display: inline;
+          margin: 0;
+          border: 1.5px solid #AAAAAA;
+          border-radius: 3px 0px 0px 3px;
+          border-right: 0px;
+          padding: 0.5em;
+          width: 16em;
+          background: #FBFBFA;
+        }
+
+        #search {
+          margin: -5px;
+          border: 1.5px solid #3C98B1;
+          border-radius: 0px 3px 3px 0px;
+          padding: 0.5em 1em;
+          background: #0192B5;
+          font-weight: 700;
+          color: white;
+        }
+      }
+    //////////////////////
+      .account {
+        display: inline-block;
+        margin: 0em;
+        padding-top: 1em;
+        height: $headerHeight;
+        box-sizing: border-box;
+        float: right;
+        li a {
+          margin: 0.3em;
+          font-size: 0.9em;
+          color: #3791B2;
+        } 
+        a:hover {
+            text-decoration: underline;
+        }
+          .sign-in {
+            border: 1px solid #3C98B1;
+            border-radius: 3px;
+            padding: 8px;
+            background: $segmentBackground;
+            color: #3791B2;
+          }
+
+          #cart {
+            display: inline;
+            padding: 0px;
+            button {
+              margin-left: 0.7em;
+              border: none;
+              border-left: $border;
+              padding-left: 10px;
+              background: transparent;
+              box-sizing: border-box;
+              img {
+                width: 1.9em;
+              }
+              a {
+                display: block;
+                color: #666666;
+                text-align: center;
+                font-size: 0.85em;
+              }   
+            }        
+          }
+        
+      } //ACCOUNT END
+    } ////////////////PRIMARY HEADER 
+
+    nav {
+    margin: 0em;
+    margin-bottom: 2em;
+    border-bottom: $border;
+    background: $segmentBackground;
+    display: block;
+      div {
+        list-style: none;
+        padding: 0em 2em;
+        max-width: 1052px;
+        height: auto;
+        white-space: nowrap;
+        position: relative;
+        ul {
+          margin: 0px;
+          padding: 12px;
+          li a{
+            color: #666666;
+            margin-right: 14px;
+            font-size: 15px;
+            text-align: left;
+          }
+        }
+      }
+    } //PRODUCT CATEGORIES
+  } //////////////////////HEADER END
+
+  ////////////////
+
+  .main {
+    margin: 4em auto;
+    width: 980px;
+    display: block;
+      .filter {
+        width: 25%;
+        display: inline-block;
+        white-space: nowrap;
+        box-sizing: border-box;
+        float: left;
+        a:hover { 
+          text-decoration: underline;
+        }
+
+        h5 {
+          margin: 0em;
+          padding-bottom: 1em;
+          color: #555555;
+        }
+
+        .outter {
+          margin: 0em 0em 2em 0em;
+          border: $border;
+          border-radius: 3px;
+          padding: 12px;
+          background: $segmentBackground;
+        }
+
+        .inner {
+          font-size: 0.85em;
+          h4 {
+            margin: 0;
+            padding-bottom: 0.5em; 
+            color: #555555;
+          }
+
+          ul {
+            margin: 0em;
+            padding: 0em;
+            line-height: 1.75em;
+            li {
+              margin-bottom: 1em;
+              padding: 0em 0em 0.5em 0.5em;
+              a {
+                color: #3791B2;
+              }
+            }
+          }
+
+          form {
+            margin-bottom: 1em;
+            border-bottom: $border;
+            padding-bottom: 1.25em;
+          }
+
+            label {
+              display: block;
+              margin-bottom: 0.5em;
+              // .filter-radio {
+              //   input:checked {
+              //   background: #3791B2;
+              //   border-color: $border;
+              //   }
+              // }
+              a {
+                color: #3791B2;
+              }
+            }
+            span {
+              // box-sizing: border-box;
+              margin: 0em 0.25em;
+            }
+            .price {
+              display: inline-block;
+              border: $border;
+              border-radius: 3px;
+              box-sizing: border-box;
+              input {
+                border: 0em;
+                padding: 0.75em 1em 0.75em 0em;
+                width: 2em;
+              }
+            }
+            button {
+              margin-left: 0.25em;
+              border: $border;
+              border-radius: 3px;
+              padding: 0.75em 1.2em;
+              background: #FFFFFF;
+            }
+            button:hover {
+              background: #B1B1B1;
+            }
+
+            .colors {
+              .swatch {
+                margin-right: 0.5em;
+                border: $border;
+                border-radius: 3px;
+                span {
+                  padding: 0.5em;
+                  height: 0.5em;
+                  width: 0.5em;
+                }
+              }
+            }
+
+            a {
+                color: #3791B2;
+              }
+
+            select {
+              padding: 5px;
+              option {
+                padding: 1em;
+              }
+            }
+        }////////////INNER END
+
+      }///////////////FILTER END
+
+      ////////////////////////////
+
+      .results {
+        margin-left: 1em;
+        width: 70%;
+        float: left;
+        display: inline-block;
+        box-sizing: border-box;
+        .heading {
+          margin: 10px;
+          width: 100%;
+          font-size: 0.8em;
+          color: #6F6F6F;
+          display: inline-block;
+          p {
+            margin: 0em;
+          }
+          a {
+            color: #3791B2;
+          }
+          h4 {
+            color: #555555;
+            display: inline;
+          }
+          .showing-left {
+            float: left;
+          }
+          .showing-right {
+            float: right;
+          }
+        }
+      }
+      //////////////
+      .graphics {
+        display: inline;
+        .result-box {
+          float: left;
+          border: $border;
+          border-radius: 3px;
+          width: 245px;
+          height: 245px;
+          margin: 10px;
+          text-overflow: hidden;
+          display: inline-block;
+          img {
+            width: 100%;
+          }
+          .result-caption {
+            border: 0em;
+            background-color: $segmentBackground;
+
+            p {
+                margin: 0px;
+                font-size: 1em;
+              }
+            .title {
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              margin-left: 6px;
+              display: block;
+              a {
+                margin: 0;
+                color: #555555;
+              }
+              a:hover {
+                text-decoration: none;
+              }
+            }
+
+            .authour {
+              display: inline-block;
+              font-size: 12px;
+              margin: 6px;
+              float: left;
+              p {
+                color: #AAAAAA;
+              }
+            }
+
+            .price {
+              float: right;
+              display: inline-block;
+              color: #8AB746;
+            }
+            .currency {
+              float: right;
+              display: inline-block;
+              color: #8AB746;
+            }
+
+          }
+        }
+      } ///////////////////GRAPHICS END
+  } ///////////////////MAIN END
+
+}///////////////CONTAINER END
+
+
+

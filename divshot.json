@@ -1,0 +1,6 @@
+{
+  "name": "tiy-hadiya-week4-etsy2live",
+  "root": "app",
+  "clean_urls": true,
+  "error_page": "error.html"
+}

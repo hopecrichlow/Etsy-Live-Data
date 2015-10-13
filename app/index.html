@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SAMPLE ETSY</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link href='https://fonts.googleapis.com/css?family=Alike' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <div class="container">
+    
+    <header>
+      <div>
+    <!-- ETSY LOGO -->
+          <div class="logo"> 
+              <a href="https://www.etsy.com/?ref=lgo">Etsy</a>
+          </div> 
+    <!-- SEARCH BAR -->
+          <div class="search">
+              <input type="text" class="bar" placeholder="Search for items or shops">
+            <!--   change to submit form -->
+              <button id="search">Search</button>
+          </div>
+    <!-- REGISTER/SIGN IN -->
+          <ul class="account">
+              <li>
+                <a href="#">Sell on Etsy</a>
+              </li>
+
+              <li>
+                <a href="#">Register</a>
+              </li>
+
+              <li>
+                <button class="sign-in">Sign in</button>
+              </li>
+    <!-- CART -->
+              <li >
+                <div id="cart">
+                  <button >
+                      <a href="#"><img src="images/cart.png"></a>
+                      <a href="#">Cart</a>
+                  </button>
+                </div>
+              </li>
+          </ul>
+      </div>
+    <!-- NAV BAR/MAIN CATEGORIES -->
+      <nav>
+        <div>
+            <ul>
+              <li><a href="#">Clothing & Accessories</a></li>
+              <li><a href="#">Jewelry</a></li>
+              <li><a href="#">Craft Supplies & Tools</a></li>
+              <li><a href="#">Weddings</a></li>
+              <li><a href="#">Entertainment</a></li>
+              <li><a href="#">Home & Living</a></li>
+              <li><a href="#">Kids & Baby</a></li>
+              <li><a href="#">Vintage</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <div class="main">
+    <!-- RESULTS FILTER -->
+      <div class="filter">
+
+          <h5>Show results for:</h5>
+          <div class="outter">
+            <div class="inner">
+              <li><a href="#"><h4>All Categories</h4></a></li>
+              <ul>
+                <li><a href="#">Home & Living</a></li>
+                <br>
+                <li><a href="#">Art & Collectibles</a></li>
+                <br>
+                <li><a href="#">Weddings</a></li>
+                <br>
+                <li><a href="#">Clothing</a></li>
+                <br>
+                <li><a href="#">Jewelry</a></li>
+                <br>
+                <li><a href="#">Paper & Party Supplies</a></li>
+                <br>
+                <li><a href="#">Accessories</a></li>
+                <br>
+                <li><a href="#">Craft Supplies & Tools</a></li>
+                <br>
+                <li><a href="#">Bags & Purses</a></li>
+                <br>
+                <li><a href="#">Bath & Beauty</a></li>
+                <br>
+                <li><a href="#">Shoes</a></li>
+                <br>
+                <li><a href="#">Books, Movies & Music</a></li>
+                <br>
+                <li><a href="#">Electronics & Accessories</a></li>
+                <br>
+                <li><a href="#">Toys & Games</a></li>
+                <br>
+                <li><a href="#">Pet Supplies</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <h5>Refine your search</h5>
+          <div class="outter">
+            <div class="inner">
+
+              <form>
+                  <h4>Item Type</h4>
+                  <label class="radio">
+                    <input type="radio" name="all-items" value class="radio" data-form-type="url" checked="checked">
+                    <a href="#">All Items</a>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="handmade" value class="radio" data-form-type="url">
+                    <a href="#">Handmade</a>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="vintage" value class="radio" data-form-type="url">
+                    <a href="#">Vintage</a>
+                  </label>
+              </form>
+
+              <form>
+                  <li><h4>Price</h4></li>
+                  <div class="price">
+                    <span>$</span>
+                    <input type="text" class="#" placeholder="Low">
+                  </div>
+                  <span>to</span>
+                  <div class="price">
+                    <span>$</span>
+                    <input type="text" class="#" placeholder="High">
+                  </div>
+                  <button class="price">#</button>
+              </form>
+
+              <form>
+                  <li><h4>Filter by Color</h4></li>
+                  <div class="colors">
+                    <a href="#" style="background-color: #E34543;" class="swatch"><span></span></a>
+                    <a href="#" style="background-color: #F28831;" class="swatch"><span></span></a>
+                    <a href="#" style="background-color: #F0C933;" class="swatch"><span></span></a>
+                    <a href="#" style="background-color: #59B713;" class="swatch"><span></span></a>
+                    <a href="#" style="background-color: #52C9F0;" class="swatch"><span></span></a>
+                    <a href="#" style="background-color: #9452F1;" class="swatch"><span></span></a>
+                    <a href="#" style="background-color: #000000;" class="swatch"><span></span></a>
+                    <a href="#" style="background-color: #FFFFFF;" class="swatch"><span></span></a>
+                  </div>
+              </form> 
+
+              <form>
+                  <h4>Ordering Options</h4>
+                  <label class="ordering">
+                    <input type="checkbox">
+                    <a href="#">Accepts Etsy Gift Cards</a>
+                  </label>
+                  <label class="ordering">
+                    <input type="checkbox">
+                    <a href="#">Customizable</a>
+                  </label>
+              </form>
+
+              <form>
+                  <h4>Shop Location</h4>
+                  <label class="radio">
+                    <input type="radio" checked="checked">
+                    <a href="#">Anywhere</a>
+                  </label>
+                  <label class="radio">
+                    <input type="radio">
+                    <a href="#">United States</a>
+                  </label>
+                  <a href="#">Choose a custom location</a>
+              </form>
+            
+              <form>
+                  <h4>Ship To</h4>
+                  <select class="country">
+                    <option>United States</option>
+                  </select>
+              </form>
+            </div> <!-- INNER END -->
+         </div><!-- OUTER END -->
+
+      </div> <!-- FILTER END -->
+
+
+      <div class="results">
+        
+          <div class="heading">
+            <p class="showing-left">
+                  <a href="#">All Categories</a> > <span> <h4>"whiskey" </h4> </span>(25,581 Results)
+            <p class="showing-right">Sort by: <a href="#">Relevancy</a></p>
+          </div><!-- HEADING END -->
+
+          <div class="graphics">
+
+            <script type="text/template" id="itemTemplate">
+              <div class="result-box">
+                <img src="<%= Images[0].url_170x135 %>">
+                <div class="result-caption">
+                    <div>
+                      <a href="#">
+                        <p class="title">
+                          <%= title %>
+                        </p>
+                      </a>
+                    </div>
+
+                    <div> 
+                      <p class="author">
+                        <a href+"#">
+                          <%= Shop.shop_name %>
+                        </a>
+                      </p>    
+                    </div>
+
+                    <div>  
+                        <p class="currency">
+                          <%= currency_code %>
+                        </p>
+                        <p class="price">
+                           $<%= price %>
+                        </p>
+                    </div>
+                </div> 
+              </div>
+            </script> 
+
+          </div><!-- GRAPHICS END -->
+
+      </div><!-- RESULTS END -->
+
+    </div><!-- MAIN END -->
+
+  </div><!-- CONTAINER END -->
+
+
+<script src="js/vendor.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
